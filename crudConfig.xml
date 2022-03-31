@@ -1,6 +1,6 @@
 <crudCfg>
 	<namedObject isReloadable="true">
-	     <namedObjects>crud-named-objects.yml</namedObjects>
+	     <namedObjects>http://localhost:8080/application/default/crud-named-objects.yml?useDefaultLabel</namedObjects>
 	</namedObject>
 
 	<dao>
