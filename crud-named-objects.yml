@@ -3,7 +3,7 @@ namedObjects:
    - !!com.crud.loader.model.CrudNamedObjectModel
        name: fetchUsers
        type: QUERY
-       query: Select * from user_idp_mapping
+       query: Select * from user_idp_mapping limit 5
        arguments: 
            
        
