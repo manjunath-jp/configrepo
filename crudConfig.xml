@@ -1,0 +1,16 @@
+<crudCfg>
+	<namedObject isReloadable="true">
+	     <namedObjects>crud-named-objects.yml</namedObjects>
+	</namedObject>
+
+	<dao>
+		<datasource>crud</datasource>
+		<valueSeparator>\^</valueSeparator>
+		<batchSize>5000</batchSize>
+		<poolSize>10</poolSize>
+		<queueSize>1000</queueSize>
+		<dateFormat>MM/dd/yyyy</dateFormat>
+		<timeFormat>MM/dd/yyyy</timeFormat>
+		<fetchSize>500</fetchSize>
+	</dao>
+</crudCfg>
